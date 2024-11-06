@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f1624;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Navbar Styling */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 8%;
+    height: 100vh;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1, h2 {
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.typing {
+    color: cyan;
+    font-weight: bold;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, cyan, magenta);
+    padding: 5px;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Section Titles */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: cyan;
+}
+
+/* About Section */
+.about {
+    padding: 50px 8%;
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 8%;
+    background-color: #0f1624;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.service-box {
+    background-color: #111827;
+    color: white;
+    padding: 20px;
+}
